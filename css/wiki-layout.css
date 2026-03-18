@@ -378,3 +378,34 @@ footer {
   transform: scale(1.05);
   transition: 0.3s;
 }
+
+.link-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.github {
+  background-color: #333;
+}
+
+.github:hover {
+  background-color: #555;
+}
+
+.blog {
+  background-color: #00a8ff;
+}
+
+.blog:hover {
+  background-color: #0097e6;
+}
