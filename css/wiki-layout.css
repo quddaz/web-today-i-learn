@@ -369,3 +369,12 @@ footer {
   --divider-color: #e8e8e8;
   --font-default-color: #333;
 }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
